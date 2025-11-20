@@ -79,7 +79,7 @@
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
                     </a>
-                    <a href="#" class="btn btn-outline">
+                    <a href="#how-it-works" class="btn btn-outline">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <polygon points="5 3 19 12 5 21 5 3"></polygon>
                         </svg>
@@ -148,8 +148,13 @@
             <div class="section-header">
                 <h2>Rreth Nesh</h2>
                 <p>
-                    TreeDoc.AI është një platformë inovative që përdor teknologjinë e mësimit të automatisuar (machine learning) 
-                    për të analizuar shëndetin e pemëve me saktësi të lartë.
+                    TreeDoc.AI është një platformë moderne që përdor Inteligjencën Artificiale për të analizuar shëndetin e pemëve
+                    me saktësi të lartë. Duke kombinuar teknologjinë e machine learning me njohuritë agronomike, ne ofrojmë një
+                    mënyrë të thjeshtë dhe të shpejtë për të identifikuar sëmundjet dhe rreziqet vetëm nga një foto.
+            
+                    Qëllimi ynë është të ndihmojmë fermerët, agronomët dhe qytetarët të marrin vendime më të sigurta për
+                    mirëmbajtjen e pemëve dhe mbrojtjen e mjedisit. Me klasifikim automatik në Healthy, Sick dhe Danger, TreeDoc.AI
+                    sjell diagnozë të besueshme dhe informacion edukativ, i aksesueshëm nga çdo pajisje.
                 </p>
             </div>
 
@@ -311,7 +316,7 @@
                         </div>
                     </div>
 
-                    <a href="#" class="btn btn-primary" style="margin-top: 2rem; width: 100%;">
+                    <a onclick="openFullscreen()" class="btn btn-primary" style="margin-top: 2rem; width: 100%;">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <polygon points="5 3 19 12 5 21 5 3"></polygon>
                         </svg>
@@ -320,7 +325,7 @@
                 </div>
 
                 <div class="video-container">
-                    <video class="video-container" muted controls>
+                    <video class="video-container" muted controls id="v">
                         <source src="treeDocAI_inUse.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
